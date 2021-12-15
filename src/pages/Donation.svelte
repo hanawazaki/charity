@@ -159,11 +159,7 @@
                   </label>
                 </div>
                 <!-- .xs-input-group END -->
-                <button
-                  type="submit"
-                  disabled={!agree}
-                  class="btn btn-warning"
-                  on:click={handleButtonClick}
+                <button type="submit" disabled={!agree} class="btn btn-warning"
                   ><span class="badge"><i class="fa fa-heart" /></span> Donate now</button
                 >
               </form>
