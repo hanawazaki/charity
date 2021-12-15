@@ -4,7 +4,7 @@
   import Contact from "./pages/Contact.svelte";
   import Donation from "./pages/Donation.svelte";
   import NotFound from "./pages/NotFound.svelte";
-  import Success from "./pages/Success.svelte";
+  import Successful from "./pages/Successful.svelte";
   import Failure from "./pages/Failure.svelte";
 
   import router from "page";
@@ -14,7 +14,7 @@
   router("/", () => (page = Home));
   router("/about", () => (page = About));
   router("/contact", () => (page = Contact));
-  router("/success", () => (page = Success));
+  router("/success", () => (page = Successful));
   router("/error", () => (page = Failure));
   router(
     "/donation/:id",
