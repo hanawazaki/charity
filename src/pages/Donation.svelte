@@ -34,7 +34,8 @@
         }
       );
       console.log(res);
-      router.redirect("/success");
+      // router.redirect("/success");
+      router.redirect("/");
     } catch (error) {
       console.log(error);
     }
